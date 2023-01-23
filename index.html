@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>sliders</title>
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <script src="https://kit.fontawesome.com/dabffbf866.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/slider.css">
+</head>
+<body>
+
+    <h1>Sliders</h1>
+
+    <div class="main">
+
+        <a href="#" id="toolbar-toggle"><span class="statut"><i class="fa-sharp fa-solid fa-arrow-up"></i></span> Barre d'outils</a>
+
+        <div class="droite">
+            <div class="toolbar">
+                <button class="btn slider-previous"><i class="fa-sharp fa-solid fa-backward"></i></button>
+                <button class="btn  slider-toggle">
+                    <i class="play fa-sharp fa-solid fa-play"></i>
+                    <i class="pause fa-solid fa-pause"></i>
+                </button>
+                <button class="btn  slider-next"><i class="fa-sharp fa-solid fa-forward"></i></button>
+                <button class="btn  slider-random"><i class="fa-solid fa-shuffle"></i></button>            
+            </div>
+
+            <figure class="slider">
+                <img id="imgslider" src="" alt="">
+                <figcaption id="figslider"></figcaption>
+            </figure>
+        </div>
+
+    </div>
+
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="/js/slider.js"></script>
+
+</body>
+</html>
